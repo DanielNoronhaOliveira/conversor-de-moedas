@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor de moedas</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+    <div>
+        <img class="logo" src="./logo.gif" alt="">
+    </div>
+    <main>
+        <label>
+            converter <b>de</b>
+            <select>
+                <option> R$ Real brasileiro</option>
+
+            </select>
+        </label>
+        <label>
+            converter <b>para</b>
+            <select id="currency-select" >
+                <option value="dolar"> Dolar Americano </option>
+                <option value="euro">Euro</option>
+                <option value="libra">Libra esterlina</option>
+
+            </select>
+        </label>
+        <label>
+            valor
+            <input id="input-currency" type="text" placeholder="R$ 0,00">
+        </label>
+
+        <button class="convert-button" >converter</button>
+
+        <section>
+            <div class="currency-box">
+                <img src="./brasil 2.png" alt="">
+                <p id="real">Real</p>
+                <p id="currency-Value-to-convert">R$ 0,00</p>
+            </div>
+            <div>
+                <img src="./seta.png" alt="">
+            </div>
+            <div class="currency-box">
+                <img id="image-change" src="./estados-unidos (1) 1.png" alt="">
+                <p class="currency"id="currency-name">Dolar americano</p>
+                <p id="currency-value">US$ 0,00</p>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./javascript.js"></script>
+</html>
